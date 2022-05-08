@@ -7,6 +7,11 @@ def guessing_game():
     print ("guessing game ans: %d" %(ans))
     while True:
         num = input("input val: ")
+
+        if (not num.replace('.','').isdigit()):
+            print ("please input integrate")
+            continue
+
         num = int(float(num))
 
         if (num == ans):
