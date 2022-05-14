@@ -11,5 +11,5 @@ def my_sum(*args, start = 0):
         output += n
     return output + start
 
-print ("output = %d" %my_sum(1, 2, 3, 4, 5))
-print ("output = %d" %my_sum(1, 2, 3, 4, 5, start = 10))
+print("output = %d" %my_sum(1, 2, 3, 4, 5))
+print("output = %d" %my_sum(1, 2, 3, 4, 5, start = 10))
